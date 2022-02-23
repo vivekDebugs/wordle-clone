@@ -1,0 +1,16 @@
+{
+  "name": "wordle-clone",
+  "version": "1.0.0",
+  "description": "Simple wordle clone",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "snowpack dev",
+    "build": "rm -rf build && snowpack build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vivek Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "snowpack": "^3.8.8"
+  }
+}
