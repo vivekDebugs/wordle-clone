@@ -1,4 +1,5 @@
 import { randomInRange, alphabetArray, wordsArray as words } from './utils'
+import './style.css'
 
 const guessWrapper = document.getElementsByClassName('guessWrapper')[0]
 const restartButton = document.getElementById('restartButton')
