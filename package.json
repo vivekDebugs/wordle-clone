@@ -1,17 +1,21 @@
 {
   "name": "wordle-clone",
   "version": "1.0.0",
+  "homepage": "http://vivekDebugs.github.io/wordle-clone",
   "description": "Simple wordle clone",
   "main": "index.js",
   "scripts": {
     "start:dev": "npx webpack server",
     "build": "rm -rf dist/*.js && webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Vivek Kumar",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^6.6.0",
+    "gh-pages": "^3.2.3",
     "style-loader": "^3.3.1",
     "webpack": "^5.69.1",
     "webpack-cli": "^4.9.2",
