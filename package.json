@@ -8,7 +8,7 @@
     "start:dev": "npx webpack server",
     "build": "rm -rf dist/*.js && webpack",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Vivek Kumar",
