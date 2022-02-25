@@ -17,3 +17,5 @@ npm run start:dev
 ```
 npm run build
 ```
+
+[View Deployment](https://vivekdebugs.github.io/wordle-clone/)
